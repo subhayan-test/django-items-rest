@@ -1,7 +1,7 @@
-# Coding test for scouthbee GmbH
+# Sample Django rest framework application
 
 ## Some words about the solution
-To achieve the objective of the coding challenge i have created 3 different apps inside the main `app`
+There are 3 different apps inside the main `app`
 1. **core** : This app is the core of the application. It stores all the models used in the application
 2. **user** : The default user model of the Django authentication system have been modified to include the email address as the `USERNAME_FIELD`
 3. **items** : This includes the views/serializers etc to work with out item models .
